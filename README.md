@@ -1,10 +1,15 @@
 # Readme
 
-I'm working on this threat hunting platform:
+I'm working on a threat hunting platform.
 
-- Generate a customized collector
+- Generate a collector
+  customizable, automatic upload, fully encrypted
 - Collect data on the target machine
+  ntfs mft, processes, browser history, prefetch, devices, softwares, os, ...
 - Upload the report, analysis is automatic
+  more than 100 detections implemented
 - Check the results!
 
 Check the screenshots (wip)
+
+Comments and suggestions are welcome!
