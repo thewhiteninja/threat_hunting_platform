@@ -1,12 +1,21 @@
 # Readme
 
-I'm working on a threat hunting platform.
+This project is a complete Windows threat hunting and forensics platform.
 
-- Generate a collector (customizable, automatic upload, fully encrypted)
-- Collect data on the target machine (ntfs mft, processes, browser history, prefetch, devices, softwares, os, ...)
-- Upload the report (analysis is automatic with more than 100 detections implemented)
+- Generate a collector
+
+    Written in C++, customizable, encrypted collected data, automatic upload.
+- Collect data on the target machine
+
+    Ex: ntfs mft, hashes, signatures, processes, browser extensions, prefetches, devices, softwares, os, kernel modules, suspicious memory pages, hooks, ...)
+- Upload the report
+
+    Analysis is automatic with more than 100 detections implemented + many IoCs databases and feeds.
+  
 - Check the results!
 
-Check the screenshots (wip)
+    Flask-based Web interface
+
+Screenshots only for now (demo available on request :wink:)
 
 Comments and suggestions are welcome!
